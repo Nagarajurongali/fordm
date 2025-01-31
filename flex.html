@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .home{
+            background-image: url('https://png.pngtree.com/background/20211217/original/pngtree-abstract-bg-picture-image_1596862.jpg');
+            height: 300px;
+        }
+
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(137, 50, 50);
+            height: 400px;
+        }
+        .main div{
+            border: 2px solid green;
+            padding: 2%;
+            margin: 2%;
+        }
+        .main div:hover{
+            background-color: antiquewhite;
+            color: green;
+        }
+        button{
+            height: 50px;
+            width: 150px;
+            background-color: none;
+            color: blue;
+            border: 2px solid blue;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: blue;
+            color: white;
+        }
+        .cards{
+            height: 400px;
+            background-color: rgb(195, 136, 59);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .cards div{
+            border: 2px solid;
+            height: 250px ;
+            width: 200px;
+            background-color: aqua;
+        }
+        .card-one{
+            background-image: url('https://img.freepik.com/premium-photo/creative-linear-blue-background-bg-landing-page-digital-design-concept_670147-34064.jpg');
+        }
+        .bg-img{
+            height: 400px;
+            background-image: url('https://img.freepik.com/premium-photo/creative-linear-blue-background-bg-landing-page-digital-design-concept_670147-34064.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .new-bg{
+            height: 400px;
+            opacity: 0.1;
+            background-image: url('https://i.pinimg.com/236x/d5/eb/5f/d5eb5fc9359e9c6326de255feb7f1723.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .new-bg:hover{
+            opacity: 1;
+        }
+        .card-one h3{
+            color: red;
+            display: none;
+        }
+        .card-one:hover h3{
+            display: block;
+        } 
+
+    </style>
+</head>
+<body>
+    <div class="new-bg">
+        dummy content
+    </div>
+    <div class="bg-img">
+
+    </div>
+    <div class="cards">
+        <div class="card-one">
+            <h3>Our Service One</h3>
+        </div>
+        <div class="card-two">
+            <h3>Our Service One</h3>
+        </div>
+        <div class="card-three">
+            <h3>Our Service One</h3>
+        </div>
+    </div>
+    <!-- <button>click</button>
+    <div class="main">
+        <div>one</div>
+        <div>one</div>
+        <div>one</div>
+        <div>one</div>
+        <div>one</div>
+        <div>one</div>
+    </div> -->
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    color: aliceblue;
+}
+.header ul{
+    display: flex;
+}
+.header ul a li{
+    list-style-type: none;
+    margin: 2%;
+}
+
+#home {
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+}
+
+#about{
+    height: 400px;
+    background-color: rgb(142, 142, 205);
+}
+#services{
+    height: 400px;
+    background-color: rgb(67, 234, 98);
+}
+#contact{
+    height: 400px;
+    background-color: rgb(161, 14, 139);
+}
